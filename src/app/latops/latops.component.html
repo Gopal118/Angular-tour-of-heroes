@@ -1,0 +1,8 @@
+<h2>laptop</h2>
+<ul class="laptops">
+  <li *ngFor="let laptop of laptops">
+    <a routerLink="/laptop/{{laptop.id}}">
+      <span class="badge">{{laptop.id}}</span> {{laptop.model}}
+    </a>
+  </li>
+</ul>

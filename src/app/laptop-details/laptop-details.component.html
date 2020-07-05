@@ -1,0 +1,10 @@
+<div *ngIf="laptop">
+    <h2>{{laptop.model | uppercase}} Details</h2>
+    <div><span>id: </span>{{laptop.id}}</div>
+    <div>
+      <label>name:
+        {{laptop.model}}
+      </label>
+    </div>
+    <button (click)="goBack()">go back</button>
+  </div>

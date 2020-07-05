@@ -17,12 +17,13 @@ h1 {
     border-radius: 4px;
   }
   nav a:visited, a:link {
-    color: #334953;
+    color: #12a5e9;
   }
   nav a:hover {
-    color: #039be5;
+    color: #3da74b;
     background-color: #cfd8dc;
   }
   nav a.active {
     color: #039be5;
   }
+  

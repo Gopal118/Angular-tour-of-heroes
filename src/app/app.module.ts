@@ -11,6 +11,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LatopsComponent } from './latops/latops.component';
+import { LaptopDetailsComponent } from './laptop-details/laptop-details.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
+    LatopsComponent,
+    LaptopDetailsComponent,
    
   ],
   imports: [
